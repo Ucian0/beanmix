@@ -75,28 +75,14 @@ nav li:first-child {
     width: 100%;
 }
 
-main {
+main div {
     margin: 25px;
     padding: 25px;
-    width: auto;
-    display: flex;
     justify-content: center;
-    text-align: center;
-    background-color: #23232e;
-    color: white;
-    border-radius: 25px
-}
-
-aside {
-    margin: 25px;
-    padding: 25px;
-    width: auto;
     display: flex;
-    justify-content: center;
-    text-align: center;
     background-color: #23232e;
+    border-radius: 25px;
     color: white;
-    border-radius: 25px
 }
 
 footer {
