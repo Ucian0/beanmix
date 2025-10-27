@@ -86,26 +86,6 @@ main {
     border-radius: 25px
 }
 
-main h1 {
-    border-right: 4px solid;
-    width: 10ch;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 2s steps(10), blinking 0.5s infinite step-end alternate;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-}
-
-@keyframes blinking {
-    50% {
-        border-color: transparent;
-    }
-}
-
 @media(max-width: 800px) {
     .hideOnMobile{
         display: none;
