@@ -99,6 +99,11 @@ aside {
     border-radius: 25px
 }
 
+aside img {
+    width: 400px;
+    height: 400px;
+}
+
 footer {
     width: 100%;
     bottom: 0;
