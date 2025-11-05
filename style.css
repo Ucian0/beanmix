@@ -90,16 +90,8 @@ main {
 }
 
 aside {
-    margin: 25px;
-    padding: 25px;
-    width: auto;
     display: flex;
     flex-grow: 1;
-    justify-content: center;
-    text-align: center;
-    background-color: #23232e;
-    color: white;
-    border-radius: 25px
 }
 
 footer {
