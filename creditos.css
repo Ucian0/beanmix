@@ -103,8 +103,7 @@ aside {
 }
 
 footer {
-    width: 100%;
-    background-color: #23232e;
+    width: 100%;    background-color: #23232e;
     box-shadow: 3px 3px 5px #34343e;
     font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
 }
