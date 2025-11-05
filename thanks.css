@@ -89,27 +89,6 @@ main {
     border-radius: 25px
 }
 
-aside {
-    margin: 25px;
-    padding: 25px;
-    width: auto;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    text-align: center;
-    background-color: #23232e;
-    color: white;
-    border-radius: 25px
-}
-
-form {
-    width: 800px;
-}
-
-input {
-    width: 50vw;
-}
-
 footer {
     width: 100%;
     background-color: #23232e;
