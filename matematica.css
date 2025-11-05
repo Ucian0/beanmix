@@ -4,6 +4,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     background-image: url(image.png);
     background-attachment: fixed;
@@ -75,20 +77,33 @@ nav li:first-child {
     width: 100%;
 }
 
-main div {
+main {
     margin: 25px;
     padding: 25px;
-    justify-content: center;
+    width: auto;
     display: flex;
+    justify-content: center;
+    text-align: center;
     background-color: #23232e;
-    border-radius: 25px;
     color: white;
+    border-radius: 25px
+}
+
+aside {
+    margin: 25px;
+    padding: 25px;
+    width: auto;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    background-color: #23232e;
+    color: white;
+    border-radius: 25px
 }
 
 footer {
     width: 100%;
-    bottom: 0;
-    position: fixed;
     background-color: #23232e;
     box-shadow: 3px 3px 5px #34343e;
     font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;

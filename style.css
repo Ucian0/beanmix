@@ -4,6 +4,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     background-image: url(image.png);
     background-attachment: fixed;
@@ -92,6 +94,7 @@ aside {
     padding: 25px;
     width: auto;
     display: flex;
+    flex-grow: 1;
     justify-content: center;
     text-align: center;
     background-color: #23232e;
@@ -101,8 +104,6 @@ aside {
 
 footer {
     width: 100%;
-    bottom: 0;
-    position: fixed;
     background-color: #23232e;
     box-shadow: 3px 3px 5px #34343e;
     font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
@@ -180,5 +181,4 @@ footer a:hover {
     .menuHideOnDesktop{
         display: none;
     }
-
 }
