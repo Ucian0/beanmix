@@ -89,6 +89,11 @@ main {
     border-radius: 25px
 }
 
+aside {
+    display: flex;
+    flex-grow: 1;
+}
+
 footer {
     width: 100%;
     background-color: #23232e;
