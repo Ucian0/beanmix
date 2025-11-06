@@ -93,7 +93,6 @@ aside {
     margin: 25px;
     padding: 25px;
     width: auto;
-    text-decoration: none;
     display: flex;
     flex-grow: 1;
     justify-content: center;
@@ -101,17 +100,11 @@ aside {
     background-color: #23232e;
     color: white;
     border-radius: 25px
-    
-}
-
-aside img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
 }
 
 footer {
-    width: 100%;    background-color: #23232e;
+    width: 100%;
+    background-color: #23232e;
     box-shadow: 3px 3px 5px #34343e;
     font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
 }
